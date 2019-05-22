@@ -1,0 +1,13 @@
+{
+	"Service": "/CrudApp/Services/crudapp.service",
+	"DefiningRequests": [{
+		"Name": "Customers",
+		"Query": "Customers"
+	}],
+	"_Type": "Action.Type.OfflineOData.Download",
+	"ActionResult": {
+		"_Name": "sync"
+	},
+	"OnSuccess": "/CrudApp/Actions/Service/SyncSuccessMessage.action",
+	"OnFailure": "/CrudApp/Actions/Service/SyncFailureMessage.action"
+}

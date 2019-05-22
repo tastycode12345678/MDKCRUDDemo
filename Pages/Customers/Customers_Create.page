@@ -1,0 +1,88 @@
+{
+	"ActionBar": {
+		"Items": [{
+			"OnPress": "/CrudApp/Actions/CloseModalPage_Cancel.action",
+			"Position": "left",
+			"SystemItem": "Cancel"
+		}, {
+			"OnPress": "/CrudApp/Actions/Customers/Customers_CreateEntity.action",
+			"Position": "right",
+			"SystemItem": "Save"
+		}]
+	},
+	"Caption": "Create Customer",
+	"Controls": [{
+		"Sections": [{
+			"Controls": [{
+				"Caption": "City",
+				"Value": "{City}",
+				"_Name": "City",
+				"_Type": "Control.Type.FormCell.SimpleProperty"
+			}, {
+				"Caption": "Country",
+				"Value": "{Country}",
+				"_Name": "Country",
+				"_Type": "Control.Type.FormCell.SimpleProperty"
+			}, {
+				"Caption": "CustomerId",
+				"Value": "{CustomerId}",
+				"_Name": "CustomerId",
+				"_Type": "Control.Type.FormCell.SimpleProperty"
+			}, {
+				"Caption": "DateOfBirth",
+				"Value": "{DateOfBirth}",
+				"_Name": "DateOfBirth",
+				"_Type": "Control.Type.FormCell.SimpleProperty"
+			}, {
+				"Caption": "EmailAddress",
+				"Value": "{EmailAddress}",
+				"_Name": "EmailAddress",
+				"_Type": "Control.Type.FormCell.SimpleProperty"
+			}, {
+				"Caption": "FirstName",
+				"Value": "{FirstName}",
+				"_Name": "FirstName",
+				"_Type": "Control.Type.FormCell.SimpleProperty"
+			}, {
+				"Caption": "HouseNumber",
+				"Value": "{HouseNumber}",
+				"_Name": "HouseNumber",
+				"_Type": "Control.Type.FormCell.SimpleProperty"
+			}, {
+				"Caption": "LastName",
+				"Value": "{LastName}",
+				"_Name": "LastName",
+				"_Type": "Control.Type.FormCell.SimpleProperty"
+			}, {
+				"Caption": "PhoneNumber",
+				"Value": "{PhoneNumber}",
+				"_Name": "PhoneNumber",
+				"_Type": "Control.Type.FormCell.SimpleProperty"
+			}, {
+				"Caption": "PostalCode",
+				"Value": "{PostalCode}",
+				"_Name": "PostalCode",
+				"_Type": "Control.Type.FormCell.SimpleProperty"
+			}, {
+				"Caption": "Street",
+				"Value": "{Street}",
+				"_Name": "Street",
+				"_Type": "Control.Type.FormCell.SimpleProperty"
+			}, {
+				"Caption": "Address",
+				"Value": "{Address}",
+				"_Name": "Address",
+				"_Type": "Control.Type.FormCell.SimpleProperty"
+			}, {
+				"Caption": "UpdatedTimestamp",
+				"Value": "{UpdatedTimestamp}",
+				"_Name": "UpdatedTimestamp",
+				"_Type": "Control.Type.FormCell.SimpleProperty"
+			}]
+		}],
+		"_Name": "FormCellContainer",
+		"_Type": "Control.Type.FormCellContainer"
+	}],
+	"_Type": "Page",
+	"_Name": "Customers_Create"
+}

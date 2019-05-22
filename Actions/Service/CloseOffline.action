@@ -1,0 +1,10 @@
+{
+	"_Type": "Action.Type.OfflineOData.Close",
+	"Service": "/CrudApp/Services/crudapp.service",
+	"Force": true,
+	"ActionResult": {
+		"_Name": "close"
+	},
+	"OnSuccess": "/CrudApp/Actions/Service/CloseOfflineSuccessMessage.action",
+	"OnFailure": "/CrudApp/Actions/Service/CloseOfflineFailureMessage.action"
+}

@@ -1,0 +1,15 @@
+{
+	"Service": "/CrudApp/Services/crudapp.service",
+	"DefiningRequests": [{
+		"Name": "Customers",
+		"Query": "Customers"
+	}],
+	"_Type": "Action.Type.OfflineOData.Initialize",
+	"ShowActivityIndicator": true,
+	"ActivityIndicatorText": "DownLoading...",
+	"ActionResult": {
+		"_Name": "init"
+	},
+	"OnSuccess": "/CrudApp/Actions/Service/InitializeOfflineSuccessMessage.action",
+	"OnFailure": "/CrudApp/Actions/Service/InitializeOfflineFailureMessage.action"
+}

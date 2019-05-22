@@ -1,0 +1,50 @@
+{
+	"Caption": "Customers",
+	"ActionBar": {
+		"Items": [{
+			"OnPress": "/CrudApp/Actions/Customers/NavToCustomers_Create.action",
+			"Position": "right",
+			"SystemItem": "Add"
+		}]
+	},
+	"Controls": [{
+		"Sections": [{
+			"Header": {
+				"Caption": "",
+				"UseTopPadding": false
+			},
+			"ObjectCell": {
+				"AccessoryType": "disclosureIndicator",
+				"Description": "{CustomerId}",
+				"DetailImage": "",
+				"DetailImageIsCircular": false,
+				"Icons": [],
+				"OnPress": "/CrudApp/Actions/Customers/NavToCustomers_Detail.action",
+				"StatusImage": "",
+				"Title": "{City}",
+				"Footnote": "{FirstName}",
+				"PreserveIconStackSpacing": false,
+				"StatusText": "{DateOfBirth}",
+				"Subhead": "{Country}",
+				"SubstatusText": "{EmailAddress}"
+			},
+			"Search": {
+				"Enabled": true,
+				"Placeholder": "Item Search",
+				"BarcodeScanner": true,
+				"Delay": 500,
+				"MinimumCharacterThreshold": 3
+			},
+			"Target": {
+				"EntitySet": "Customers",
+				"Service": "/CrudApp/Services/crudapp.service",
+				"QueryOptions": ""
+			},
+			"_Type": "Section.Type.ObjectTable"
+		}],
+		"_Type": "Control.Type.SectionedTable",
+		"_Name": "SectionedTable"
+	}],
+	"_Type": "Page",
+	"_Name": "Customers_List"
+}

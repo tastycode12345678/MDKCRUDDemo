@@ -1,0 +1,6 @@
+{
+	"ModalPageFullscreen": true,
+	"ModalPage": true,
+	"PageToOpen": "/CrudApp/Pages/Customers/Customers_Create.page",
+	"_Type": "Action.Type.Navigation"
+}

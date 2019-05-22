@@ -1,0 +1,9 @@
+{
+	"Service": "/CrudApp/Services/crudapp.service",
+	"_Type": "Action.Type.OfflineOData.Upload",
+	"ActionResult": {
+		"_Name": "sync"
+	},
+	"OnSuccess": "/CrudApp/Actions/Service/DownloadOffline.action",
+	"OnFailure": "/CrudApp/Actions/Service/SyncFailureMessage.action"
+}

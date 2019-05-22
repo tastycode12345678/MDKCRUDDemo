@@ -1,0 +1,13 @@
+{
+	"Target": {
+		"EntitySet": "Customers",
+		"Service": "/CrudApp/Services/crudapp.service",
+		"ReadLink": "{@odata.readLink}"
+	},
+	"OnSuccess": "/CrudApp/Actions/DeleteEntitySuccessMessage.action",
+	"OnFailure": "/CrudApp/Actions/DeleteEntityFailureMessage.action",
+	"ActionResult": {
+		"_Name": "delete"
+	},
+	"_Type": "Action.Type.ODataService.DeleteEntity"
+}

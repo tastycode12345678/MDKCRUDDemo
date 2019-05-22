@@ -1,0 +1,31 @@
+{
+	"Caption": "Main",
+	"Controls": [{
+		"_Name": "SectionedTable0",
+		"_Type": "Control.Type.SectionedTable",
+		"Sections": [{
+			"Buttons": [{
+				"OnPress": "/CrudApp/Actions/Customers/NavToCustomers_List.action",
+				"TextAlignment": "center",
+				"Title": "Customers"
+			}],
+			"_Name": "SectionButtonTable0",
+			"_Type": "Section.Type.ButtonTable"
+		}]
+	}],
+	"_Name": "Main",
+	"_Type": "Page",
+	"ToolBar": {
+		"Controls": [{
+			"_Name": "LogoutToolbarItem",
+			"_Type": "Control.Type.ToolbarItem",
+			"Caption": "Logout",
+			"OnPress": "/CrudApp/Actions/Logout.action"
+		}, {
+			"_Name": "UploadToolbarItem",
+			"_Type": "Control.Type.ToolbarItem",
+			"Caption": "Sync",
+			"OnPress": "/CrudApp/Actions/Service/SyncStartedMessage.action"
+		}]
+	}
+}
